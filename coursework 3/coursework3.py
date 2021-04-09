@@ -1,7 +1,7 @@
 # File: coursework3.py
-# Date: April 10th, 2020
-# Authors: Lars de Roo(s3728072)
-# and Robin Snoek (s3792846)
+# Date: April 9, 2021
+# Authors: Adam Smit(s3787273)
+# 		   Stijn Wijnen (s3515281)
 
 import io
 import tweepy
@@ -132,10 +132,10 @@ class NewMenu(tk.Frame):
 
     def on_reset(self):
         f = io.open('credentials.txt', 'w', encoding='utf8')
-        print('mCrqdMTpF8MBqaZyzGERQUTCy',
-              'vc141IO4yN1EBbMJie7neYH0cjNMu5chM8a827CL80KRGjzwjz',
-              '1242373306768113664-tTy0GsqqJFwOPG0ZD59ulgLXuP5Ppu',
-              'Ao9C0zQbU3rLWHDyCKFnk0MmOOgMNlDG542vpEbc5Qidq', file=f, sep='\n', end='')
+        print('VkfalhIsvc28k3TCceAwV2T8K',
+              'G7xAOdhm7520ufI8d786DjvssQkuyPKdkmtIRRIx6R0uHoq0uR',
+              '287626070-7S1iNcwSO0aUum3MJeMeltlSSzRFew1FWdJTLYjm',
+              'PM8KuSkJO237MYLJbgMhInoMS7fg2Crc3g4XbmBYu8TuD', file=f, sep='\n', end='')
         f.close()
 
 
